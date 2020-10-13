@@ -112,9 +112,8 @@
 
 /*サイドバーここから*/
 .sidebar{
-	width: 25%;
+	width: 100%;
 	height: 450px;
-	background-color: pink;
 	display: flex;
 }
 
@@ -127,6 +126,36 @@
 }
 
 .sidebar-left{
+	width: 25%;
 	display: flex;
 	flex-direction: column;
+	background-color: pink;
+}
+
+.sidebar-left:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sidebar-right{
+	width: 75%;
+	height: 450px;
+	background-color: red;
 }
