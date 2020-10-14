@@ -85,6 +85,38 @@
 	margin-right:30px;
 }
 
+.tel{
+	width: 180px;
+	font-family: cursive;
+	color: #F35814;
+	margin-left: 200px;
+	text-align: center;
+
+}
+
+.button{
+	display: flex;
+	flex-direction: column;
+}
+
+.button button{
+	height: 30px;
+	width: 80px;
+	margin-top: 5px;
+	margin-right: 20px;
+	background-color: pink;
+	border-radius: 15%;
+	margin-left: 10px;
+	border: 2px solid #F763E4;
+	font-family: cursive;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #F763E4;
+
+}
+
 /*ウェルカムここから*/
 
 .welcome{
@@ -126,10 +158,10 @@
 }
 
 .sidebar-left{
-	width: 25%;
+	flex: 1;
 	display: flex;
 	flex-direction: column;
-	background-color: pinCk;
+	background-color: #F5D397;
 }
 
 .sidebar-left:hover img {
@@ -155,7 +187,7 @@
 }
 
 .sidebar-right{
-	width: 75%;
+	flex:3;
 	height: 450px;
-	background-color: red;
+	background-color: #EBA27A;
 }
