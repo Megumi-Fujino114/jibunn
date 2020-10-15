@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="jibunn.css">
     <link rel="stylesheet" href="reset.css">
-    <title>自己紹介サイト</title>
+    <title>猫カフェ</title>
 </head>
 <body>
 
@@ -14,8 +14,6 @@
       <img src="neko1.jpg">
     </div>
     <div>
-        <div class="header-center">
-            <p>TEL XXX-XXXX-XXXX</p>
           <div class="button">
             <button>新規登録</button>
             <button>ログイン</button>
@@ -38,14 +36,47 @@
     </ul>
 </main>
 <!--sidebarここから  -->
-<form class="sidebar">
-        <div class="sidebar-left">
-           <label>
-               <input type="text" name="" >
-           </label>
+<aside class="contact">
+    <form class="sidebar-left">
+        <p>🐱contact us🐱</p>
+        <div class="form-group">
+             <!-- テキスト -->
+            <div>
+               <label class="label">お名前</label>
+            </div>
+               <input type="text" name="" placeholder="お名前を記入してください" class="text">
         </div>
-        <div class="sidebar-right"></div>
-</form>
+        <div class="form-group">
+            <span class="label">性別</span>
+            <span class="input-field">
+                <label>
+                    <input type="radio" name="gender" id="male" >
+                    男性
+                </label>
+                <label>
+                     <input type="radio" name="gender" id="female" >女性
+                </label>
+            </span>
+        </div>
+        <div class="form-group">
+            <span class="label">出身</span>
+             <span class="input-field">
+                <select>
+                    <option value="1">東京</option>
+                    <option value="2">神奈川</option>
+                    <option value="3">千葉</option>
+                    <option value="4">沖縄</option>
+                </select>
+            </span>
+        </div>
+               <!-- テキスト -->
+       <div class="form-group">
+            <label class="label">お問い合わせ</label>
+               <input type="text" name="" placeholder="お問い合わせ内容" class="text1">
+        </div>
+    </form>
+      <div class="sidebar-right"></div>
+</aside>
 <!-- ここで終了 -->
 
 </body>
