@@ -90,7 +90,8 @@
 .button{
 	display: flex;
 	flex-direction: column;
-	margin-left: 250px;
+	/*justify-content: flex-end;*/
+	margin-left: 400px;
 	margin-top: 10px;
 }
 
@@ -167,7 +168,8 @@ button:hover{
 .sidebar-right{
 	flex:3;
 	height: 350px;
-	background-color: red;
+	background-color: #FFFFCC;
+    display: flex;
 }
 
 .text{
@@ -180,6 +182,70 @@ button:hover{
 .text1{
 	margin-top: 10px;
 	height: 50px;
-	border-radius: 5%;
 	border: 3px solid orange;
+}
+
+/*左側ここから*/
+
+.table , .table th, .table td {
+	border: 3px solid #FFCCCC;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.table th{
+	padding: 25px;
+	background-color: #FFFF66;
+}
+
+.table td{
+	padding: 20px;
+}
+
+#last{
+	background-color: #FFC7AF;
+}
+
+.balloon4 {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 15px;
+  background: #FFAD90;
+  border-radius: 30px;
+  height: 70px;
+  width: 150px;
+  border: 5px dotted #FF8856;
+}
+
+.balloon4:before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  width: 13px;
+  height: 12px;
+  bottom: 80px;
+  background: #FF9872;
+  border-radius: 50%;
+}
+
+.balloon4:after {
+  content: "";
+  position: absolute;
+  left: -28px;
+  width: 20px;
+  height: 18px;
+  bottom: 70px;
+  background: #FF8856;
+  border-radius: 50%;
+}
+.balloon4 p {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 18px;
+  color: black;
+}
+
+.balloon4 strong{
+	color:red;
 }
