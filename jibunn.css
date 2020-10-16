@@ -294,10 +294,9 @@ button:hover{
 
 
 .photo{
-	height: 400px;
+	height: 380px;
 	width: 100%;
 	background-color: white;
-	margin-bottom: 50px;
 }
 
 .photo p{
@@ -343,8 +342,9 @@ button:hover{
 
 .article{
 	background-color: pink;
-	color: red;
+	color: black;
 	font-family: cursive;
 	font-size: 16px;
 	text-align: center;
+	margin-top: -60px;
 }
