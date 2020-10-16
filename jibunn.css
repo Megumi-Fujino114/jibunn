@@ -211,7 +211,7 @@ button:hover{
   position: relative;
   margin: 2em 0 2em 40px;
   padding: 15px;
-  background: #FFAD90;
+  background: #FFDBC9;
   border-radius: 30px;
   height: 70px;
   width: 150px;
@@ -248,4 +248,44 @@ button:hover{
 
 .balloon4 strong{
 	color:red;
+}
+
+.neko-img{
+	display: flex;
+}
+
+.neko-img img{
+	width:200px;
+	height: 180px;
+	border-radius: 20%;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.star-right{
+	height: 90px;
+	width: 90px;
+	margin-left: 200px;
+	margin-top: -100px;
+}
+
+.star-left{
+	height: 100px;
+	width: 100px;
+	margin-left: -30px;
+	margin-top: 50px;
+	display: flex;
+}
+
+.star-left-mini{
+	height:50px;
+	width: 50px;
+	margin-left: -20px;
+	margin-top: 120px;
+}
+
+
+
+.cat{
+	display: flex;
 }
