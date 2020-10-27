@@ -529,5 +529,9 @@ button:hover{
     	height: 200px;
     	text-align: center;
     	margin-left: 85px;
+    	margin-top: 20px;
     }
+
+    .photo{
+	height: 880px;
 }
